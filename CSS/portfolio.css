@@ -1,0 +1,19 @@
+/* styles for portfolio.html */
+
+/* Section filters */
+
+.section-title {
+  color: var(--title-color);
+}
+.filters-list .button {
+  color: var(--title-color);
+  background-color: #f5f4fa;
+}
+.filters-list .button:hover,
+.filters-list .button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.projects-list .title {
+  color: var(--title-color);
+}
