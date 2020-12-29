@@ -5,9 +5,15 @@
 .section-title {
   color: var(--title-color);
 }
+
 .filters-list .button {
   color: var(--title-color);
   background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .filters-list .button:hover,
 .filters-list .button:focus {
@@ -16,4 +22,18 @@
 }
 .projects-list .title {
   color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects-list .text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
 }

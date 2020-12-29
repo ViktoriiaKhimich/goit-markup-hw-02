@@ -9,6 +9,7 @@
 body {
   background-color: #e5e5e5;
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
 }
 
 .list {
@@ -16,16 +17,37 @@ body {
 }
 
 /* Шапка страницы */
+
+.header {
+  background-color: #ffffff;
+}
 .logo {
   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
+
 .studio {
   color: var(--title-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 /* Site-nav */
 .site-nav .link {
   color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -36,6 +58,11 @@ body {
 }
 .contact .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .contact .link:hover,
 .contact .link:focus {
@@ -44,6 +71,9 @@ body {
 
 /* Footer */
 
+.footer {
+  background-color: #2f303a;
+}
 .footer .logo {
   color: var(--accent-color);
 }
@@ -53,7 +83,13 @@ body {
 
 .footer .address {
   color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .footer .contact {
   color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
